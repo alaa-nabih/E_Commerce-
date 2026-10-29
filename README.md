@@ -1,8 +1,8 @@
-# 🛒 E-Commerce Backend API
+# E-Commerce Backend API
 
 A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **MongoDB (Mongoose)**, and **TypeScript**. This project features a full authentication and authorization system with OTP-based email verification, event-driven communication, generic repository pattern, and dual-layer data validation.
 
----
+
 
 ## 📑 Table of Contents
 - [Features](#-features)
@@ -15,7 +15,6 @@ A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **
 - [API Endpoints](#-api-endpoints)
 - [License](#-license)
 
----
 
 ## 🚀 Features
 
@@ -37,13 +36,11 @@ A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **
 - **Standardized API Responses**:
   - Global `successHandlerInterceptor` ensuring unified response structures (`{ msg, status, data }`) and request latency monitoring.
 
----
 
 ## 🛠️ Tech Stack & Tools
 
 ### 1. Core Framework & Runtime
 | Tool / Library | Version | Description |
-| :--- | :--- | :--- |
 | **Node.js** | `>= 18` | JavaScript runtime engine |
 | **NestJS** (`@nestjs/core`, `@nestjs/common`) | `^11.0.1` | Progressive TypeScript framework for building efficient and scalable server-side applications |
 | **TypeScript** | `^5.7.3` | Strongly typed superset of JavaScript |
@@ -53,7 +50,6 @@ A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **
 
 ### 2. Database & Data Modeling
 | Tool / Library | Version | Description |
-| :--- | :--- | :--- |
 | **MongoDB** | `>= 6.0` | NoSQL document database |
 | **Mongoose** | `^8.20.1` | Elegant Object Data Modeling (ODM) library for MongoDB |
 | **@nestjs/mongoose** | `^11.0.3` | Mongoose integration module for NestJS |
@@ -76,7 +72,5 @@ A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **
 
 ### 5. Email & Communication
 | Tool / Library | Version | Description |
-| :--- | :--- | :--- |
 | **Nodemailer** | `^7.0.11` | Cross-platform module for sending emails via SMTP |
 | **Node.js EventEmitter** | Built-in | Native pub/sub event emitter to trigger asynchronous email notifications |
----
