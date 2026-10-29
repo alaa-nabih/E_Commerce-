@@ -30,7 +30,6 @@ export class OTPService {
       },
     })
     if (isOTPExist && isOTPExist.expireAt > new Date(Date.now())) {
-      //exist but not expired
       throw new BadRequestException(
         'OTP already sent, please try after some time',
       )

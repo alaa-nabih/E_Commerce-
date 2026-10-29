@@ -4,11 +4,11 @@ import { ValidationPipe } from '@nestjs/common'
 import { successHandlerInterceptor } from './common/interceptors/morgan.interceptor'
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule) //this line equal => const app=express()
+  const app = await NestFactory.create(AppModule)
   app.useGlobalPipes(
     new ValidationPipe({
-      whitelist: true, //strip properties that do not have any decorators in the DTO
-      forbidNonWhitelisted: true, //throw error if non-whitelisted properties are present
+      whitelist: true,
+      forbidNonWhitelisted: true,
     }),
   )
   app.useGlobalInterceptors(new successHandlerInterceptor())

@@ -47,10 +47,10 @@ OTPSchema.index(
     type: 1,
   },
   {
-    unique: true, //the combination of userId and type should be unique
-    expires: 1000 * 60 * 5, // 5 minutes
-    expireAfterSeconds: 300, //after expires date ,count 300 seconds to delete
-  },
+    unique: true, 
+    expires: 1000 * 60 * 5, 
+    expireAfterSeconds: 300, 
+  }
 )
 
 export const OTPModel = MongooseModule.forFeature([

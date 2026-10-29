@@ -21,20 +21,6 @@ export class User {
   @Prop({ type: Boolean, default: false })
   isConfirmed?: boolean
 
-  // @Prop({ type: String })
-  // confirmationCode?: string
-
-  // @Prop({ type: Date })
-  // confirmationExpires?: Date
-
-  // @Prop({ type: String })
-  // resetPasswordCode?: string
-
-  // @Prop({ type: Date })
-  // resetPasswordExpires?: Date
-
-  // @Prop({ type: Boolean, default: false })
-  // isGoogleUser?: boolean
 }
 
 export const UserSchema = SchemaFactory.createForClass(User)

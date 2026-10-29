@@ -3,11 +3,12 @@ import { AppController } from './app.controller'
 import { AppService } from './app.service'
 import { AuthModule } from './Module/auth/auth.module'
 import { UserModule } from './Module/user/user.module'
-import { ProductModule } from './product/product.module'
 import { ConfigModule } from '@nestjs/config'
 import { MongooseModule } from '@nestjs/mongoose'
 import { Connection } from 'mongoose'
-ConfigModule.forRoot() //to use process.env variables.
+import { ProductModule } from './Module/product/product.module'
+
+ConfigModule.forRoot()
 
 @Module({
   imports: [
