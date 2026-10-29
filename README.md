@@ -2,20 +2,6 @@
 
 A robust, scalable, and modular E-Commerce RESTful API built with **NestJS**, **MongoDB (Mongoose)**, and **TypeScript**. This project features a full authentication and authorization system with OTP-based email verification, event-driven communication, generic repository pattern, and dual-layer data validation.
 
-
-
-## 📑 Table of Contents
-- [Features](#-features)
-- [Tech Stack & Tools](#-tech-stack--tools)
-- [Project Architecture](#-project-architecture)
-- [Folder Structure](#-folder-structure)
-- [Environment Variables](#-environment-variables)
-- [Installation & Setup](#-installation--setup)
-- [Available Scripts](#-available-scripts)
-- [API Endpoints](#-api-endpoints)
-- [License](#-license)
-
-
 ## 🚀 Features
 
 - **Modular Architecture**: Built following NestJS modular design for clean separation of concerns.
